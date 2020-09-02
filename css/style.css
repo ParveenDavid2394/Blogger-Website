@@ -1,0 +1,34 @@
+/* Global Classes */
+a {
+    text-decoration: none;
+}
+
+html, body{
+    /* remove margin for all elements */
+    margin: 0%;
+
+    /* border-box will include padding and margin 
+        when setting width and height of an element
+    */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*---- Nav Bar ----*/
+.nav{
+    border: 1px solid black;
+    background: white;
+    /* top bottom 0 left-right 2rem */
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    border: 1px dotted black;
+}
+
+/*--xx-- Nav Bar --xx-- */
