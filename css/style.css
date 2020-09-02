@@ -3,6 +3,20 @@ a {
     text-decoration: none;
 }
 
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    /* use flex wrap to align all items when page is shrunk */
+    flex-wrap: wrap;
+}
+
+ul{
+    /* disable list properties */
+    list-style: none;
+}
+
+/* --xx-- Global Classes --xx-- */
+
 html, body{
     /* remove margin for all elements */
     margin: 0%;
@@ -21,14 +35,39 @@ html, body{
     /* top bottom 0 left-right 2rem */
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 40vh;
     overflow: hidden;
+}
+
+.nav .nav-menu {
+    /* put it here bcz flex-row is global */
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    /* place items in it in flex */
+    display: flex;
+    border: 1px dashed coral;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    /* top bottom, sides */
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
 }
 
 .nav .nav-brand a{
     font-size: 1.6rem;
     padding: 1rem 0;
     border: 1px dotted black;
+    display: block;
+}
+
+.nav .social{
+    padding: 1.4rem 0;
+    border: 1px dashed coral;
 }
 
 /*--xx-- Nav Bar --xx-- */
