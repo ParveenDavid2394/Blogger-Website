@@ -369,6 +369,28 @@ main .site-content .pagination .pages {
     color: white;
 }
 
+/* ---- Sidebar ---- */
+
+/* --xx-- Sidebar --xx-- */
+
+.site-content > .sidebar .category-list{
+    font-family: var(--Livvic);
+}
+
+.site-content > .sidebar .category-list .list-items{
+    background: var(--sky);
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-content>.sidebar .category-list .list-items a{
+    color: black;
+}
+
 /* --xx--Site Content --xx-- */
 
 /*--xx-- Main Content --xx-- */
