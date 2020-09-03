@@ -10,5 +10,8 @@ $(document).ready(function(){
         $nav.toggleClass('collapse');
 
         
-    });
+    })
+
+    // initialize owl-carousel for blog
+    $('.owl-carousel').owlCarousel();
 });
