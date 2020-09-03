@@ -264,6 +264,29 @@ main .blog-content span{
     display: block;
 }
 
+section .container .owl-nav{
+    /* border: 1px solid coral; */
+
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container .owl-nav .owl-prev .owl-nav-prev, 
+.container .owl-nav .owl-next .owl-nav-next{
+
+    /* border: 1px solid blue; */
+    color: var(--text-gray);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.container .owl-theme .owl-nav [class*="owl-"]:hover{
+    background: transparent;
+    color: var(--midnight);
+}
+
 /* --xx-- Blog Carousel --xx-- */
 
 /*--xx-- Main Content --xx-- */
