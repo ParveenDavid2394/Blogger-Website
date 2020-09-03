@@ -19,6 +19,30 @@ ul{
     list-style: none;
 }
 
+h1{
+    font-family: var(--Lexend_Deca);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend_Deca);
+    font-size: 1.9rem;
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+
 /* --xx-- Global Classes --xx-- */
 
 
@@ -49,6 +73,7 @@ ul{
 
 
 html, body{
+    font-size: 16px;
     /* remove margin for all elements */
     margin: 0%;
 
@@ -56,7 +81,7 @@ html, body{
         when setting width and height of an element
     */
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /*---- Nav Bar ----*/
@@ -147,6 +172,48 @@ html, body{
 
 /*--xx-- Nav Bar --xx-- */
 
+/* ---- Main Content ---- */
+
+/* ---- Site Title ---- */
+
+main .site-title{
+    background: url('/assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    /* border: 1px solid coral; */
+
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1,h3{
+    /* border: 1px solid coral; */
+    margin: 0.3rem;
+}
+
+main .site-title .btn{
+    /* border: 1px solid coral; */
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+/* --xx-- Site Title --xx-- */
+
+
+/*--xx-- Main Content --xx-- */
 
 
 /* Viewport less than or equal to 750px */
