@@ -279,7 +279,7 @@ section .container .owl-nav{
     /* border: 1px solid blue; */
     color: var(--text-gray);
     background: transparent;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .container .owl-theme .owl-nav [class*="owl-"]:hover{
