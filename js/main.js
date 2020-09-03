@@ -41,6 +41,9 @@ $(document).ready(function(){
         responsive: responsive,
     });
 
+    // initialize AOS instance
+    AOS.init();
+
     // click to scroll to top of page
     $('.move-up').click(function(){
         $('html,body').animate({
