@@ -22,4 +22,12 @@ $(document).ready(function(){
         nav:true,
         navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
     });
+
+    // click to scroll to top of page
+    $('.move-up').click(function(){
+        $('html,body').animate({
+            scrollTop:0
+        }, 1000);
+    })
+
 });
