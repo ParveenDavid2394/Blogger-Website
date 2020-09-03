@@ -13,5 +13,12 @@ $(document).ready(function(){
     })
 
     // initialize owl-carousel for blog
-    $('.owl-carousel').owlCarousel();
+    $('.owl-carousel').owlCarousel({
+        // specification to scroll carousel
+        loop:true,
+        autoplay:true,
+        autoplayTimeout: 30000,
+        dots:false,
+        nav:true,
+    });
 });
